@@ -558,7 +558,7 @@ const App = () => {
                 </p>
                 <div className="grid sm:grid-cols-3 gap-4 mb-6">
                   <div className="bg-white p-3 rounded-lg shadow-sm text-center font-medium text-slate-700 border border-slate-200 hover:border-blue-300 transition-colors">UiTM Shah Alam <br /><span className="text-xs text-slate-500">(Miku Parcel)</span></div>
-                  <div className="bg-white p-3 rounded-lg shadow-sm text-center font-medium text-slate-700 border border-slate-200 hover:border-blue-300 transition-colors">UiTM Arau <br /><span className="text-xs text-slate-500">(UniStorage)</span></div>
+                  <div className="bg-white p-3 rounded-lg shadow-sm text-center font-medium text-slate-700 border border-slate-200 hover:border-blue-300 transition-colors">UiTM Arau <br /><span className="text-xs text-slate-500">(UniStorage Arau)</span></div>
                   <div className="bg-white p-3 rounded-lg shadow-sm text-center font-medium text-slate-700 border border-slate-200 hover:border-blue-300 transition-colors">UPSI <br /><span className="text-xs text-slate-500">(1StopCentre & Martkz)</span></div>
                 </div>
                 <p className="text-sm text-slate-600">
