@@ -338,7 +338,7 @@ const App = () => {
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">1. Scan & Label</h3>
               <p className="text-slate-600 text-sm max-w-xs">
-                Staff scans the parcel barcode. The system instantly verifies it, checks for duplicates, and prints a label with rack location.
+                Staff scans the parcel barcode. The system verifies the parcel, detects duplicates, assigns a rack location, and prints a label automatically.
               </p>
             </div>
 
@@ -347,9 +347,9 @@ const App = () => {
               <div className="w-24 h-24 bg-white rounded-full border-4 border-slate-100 flex items-center justify-center shadow-lg mb-6 group-hover:border-blue-100 transition-colors">
                 <Send className="w-10 h-10 text-blue-600" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-2">2. Auto-Notify</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">2. Automated Notification</h3>
               <p className="text-slate-600 text-sm max-w-xs">
-                The student immediately receives a notification via Telegram Bot. No need for them to check a website or call.
+                The recipient is notified immediately via Telegram with parcel arrival and collection details.
               </p>
             </div>
 
@@ -358,9 +358,9 @@ const App = () => {
               <div className="w-24 h-24 bg-white rounded-full border-4 border-slate-100 flex items-center justify-center shadow-lg mb-6 group-hover:border-blue-100 transition-colors">
                 <CheckCircle2 className="w-10 h-10 text-blue-600" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-2">3. Quick Pickup</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">3. Parcel Collection</h3>
               <p className="text-slate-600 text-sm max-w-xs">
-                Student shows their QR code or phone number. Staff retrieves the item from the assigned smart rack. Done in seconds.
+                The student presents the label code generated via the system (accessible through the website or Telegram Bot). Staff retrieves the parcel from the system assigned location.
               </p>
             </div>
           </div>
