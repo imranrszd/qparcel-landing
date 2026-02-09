@@ -98,7 +98,7 @@ const App = () => {
               className="flex items-center gap-2 cursor-pointer group"
               onClick={() => scrollToTop()}
             >
-              <img src="/src/assets/qylex-logo.png" alt="Qylex Logo" id="logo" className='h-10' />
+              <img src="/images/qylex-logo.png" alt="Qylex Logo" id="logo" className='h-10' />
             </div>
 
             {/* Desktop Nav */}
@@ -149,7 +149,7 @@ const App = () => {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-600 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
                 </span>
-                Live at UiTM Shah Alam & Arau
+                Live at UiTM Shah Alam, Arau & UPSI
               </div>
               <h1 className="text-4xl lg:text-6xl font-extrabold text-slate-900 leading-tight mb-6 tracking-tight">
                 Easier Drop-offs. <br />
@@ -174,7 +174,7 @@ const App = () => {
             <div className="relative">
               <div className="bg-white rounded-2xl shadow-2xl p-2 border border-slate-200 relative z-10 transform rotate-0 hover:rotate-2 transition-all duration-500 group">
 
-                <img src="/src/assets/dashboard.png" alt="Qylex Logo" id="logo" />
+                <img src="images/dashboard.png" alt="Qylex Logo" id="logo" />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-slate-900 text-white p-4 rounded-xl shadow-xl z-20 max-w-xs transform hover:scale-105 transition-transform">
                 <div className="flex items-center gap-2 mb-1">
@@ -193,7 +193,7 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-slate-100">
             <div>
-              <div className="text-3xl font-extrabold text-blue-800">1,200+</div>
+              <div className="text-3xl font-extrabold text-blue-800">4,000+</div>
               <div className="text-sm text-slate-600 font-medium mt-1">Daily Parcels Processed</div>
             </div>
             <div>
@@ -399,7 +399,7 @@ const App = () => {
                   <tr className="bg-slate-100">
                     <th className="p-6 text-sm font-semibold text-slate-600 uppercase tracking-wider">Feature</th>
                     <th className="p-6 text-sm font-bold text-blue-800 uppercase tracking-wider bg-blue-50">Qylex Solution System</th>
-                    <th className="p-6 text-sm font-semibold text-slate-500 uppercase tracking-wider">UniStorage / Legacy</th>
+                    <th className="p-6 text-sm font-semibold text-slate-500 uppercase tracking-wider">Traditional System</th>
                     <th className="p-6 text-sm font-semibold text-slate-500 uppercase tracking-wider">Excel / Manual</th>
                   </tr>
                 </thead>
@@ -512,7 +512,7 @@ const App = () => {
                   <div className="absolute inset-0 bg-blue-600 rounded-full opacity-0 group-hover:opacity-10 transition-opacity blur-xl"></div>
                   {/* PLACEHOLDER IMAGE: Replace 'src' below with your actual image URL */}
                   <img
-                    src="/src/assets/founder.png"
+                    src="/images/founder.png"
                     alt="Muhammad Zalhaqimi Bin Zuhairi"
                     className="w-full h-full object-cover rounded-full border-4 border-slate-100 shadow-lg"
                   />
@@ -539,10 +539,10 @@ const App = () => {
                 </h3>
                 <div className="prose prose-slate text-slate-600 leading-relaxed">
                   <p className="mb-4">
-                    <strong>Qylex Solution (SSM: 202503226171)</strong> is a technology startup founded in September 2025 by Muhammad Zalhaqimi Bin Zuhairi, a student of Intelligent Systems Engineering at UiTM Shah Alam.
+                    <strong>Qylex Solution (SSM: 202503226171)</strong> is a pioneering logistics technology firm specializing in campus automation. Founded by Intelligent Systems Engineers, we bridge the gap between academic innovation and industrial operational needs.
                   </p>
                   <p>
-                    Born from the need to solve the chaotic parcel management situation on campus—where manual Excel sheets and handwritten logs led to long queues and lost items—we developed Qylex Solution. What started as a solution to handle the e-commerce boom among students has evolved into a fully registered SaaS business. We combine academic technical knowledge (AI & Automation) with real-world operational needs to modernize university logistics.
+                    Recognizing the critical bottleneck in university logistics, where manual dependencies caused operational paralysis, QParcel was engineered as a high-performance SaaS solution. We transformed a legacy problem into a streamlined, automated ecosystem capable of scaling with the e-commerce boom
                   </p>
                 </div>
               </div>
@@ -554,11 +554,11 @@ const App = () => {
                   Our Availability
                 </h3>
                 <p className="text-slate-700 mb-4">
-                  We are currently live and operational, processing <strong>800–1,200 parcels daily</strong>. Our system is field-tested and trusted by vendors at major institutions:
+                  We are currently live and operational, processing <strong>4,000-5,000 parcels daily</strong>. Our system is field-tested and trusted by vendors at major institutions:
                 </p>
                 <div className="grid sm:grid-cols-3 gap-4 mb-6">
                   <div className="bg-white p-3 rounded-lg shadow-sm text-center font-medium text-slate-700 border border-slate-200 hover:border-blue-300 transition-colors">UiTM Shah Alam <br /><span className="text-xs text-slate-500">(Miku Parcel)</span></div>
-                  <div className="bg-white p-3 rounded-lg shadow-sm text-center font-medium text-slate-700 border border-slate-200 hover:border-blue-300 transition-colors">UiTM Arau <br /><span className="text-xs text-slate-500">(UniStorage)</span></div>
+                  <div className="bg-white p-3 rounded-lg shadow-sm text-center font-medium text-slate-700 border border-slate-200 hover:border-blue-300 transition-colors">UiTM Arau <br /><span className="text-xs text-slate-500">(UniStorage Arau)</span></div>
                   <div className="bg-white p-3 rounded-lg shadow-sm text-center font-medium text-slate-700 border border-slate-200 hover:border-blue-300 transition-colors">UPSI <br /><span className="text-xs text-slate-500">(1StopCentre & Martkz)</span></div>
                 </div>
                 <p className="text-sm text-slate-600">
